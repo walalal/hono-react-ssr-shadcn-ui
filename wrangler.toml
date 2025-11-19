@@ -1,7 +1,7 @@
 name = "hono-react-ssr-shadcn-ui"
 pages_build_output_dir = "./dist"
 compatibility_date = "2024-04-22"
-compatibility_flags = [ "nodejs_compat" ]
+# compatibility_flags = [ "nodejs_compat" ]
 
 [vars]
 BLOG_USERNAME="admin"
