@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "echo \"export default false\" > ./src/config/is_prod.ts && vite",
     "client": "vite --mode client",
-    "build": "$npm_execpath run version && vite build --mode client && cp -f ./dist/.vite/manifest.json ./src/lib/manifest.json && vite build",
+    "build": "vite build --mode client && cp -f ./dist/.vite/manifest.json ./src/lib/manifest.json && vite build",
     "preview": "wrangler pages dev dist",
     "deploy": "$npm_execpath run build && wrangler pages deploy dist",
     "version": "echo \"export default `date +'%s'`\" > ./src/config/build_time.ts && echo \"export default true\" > ./src/config/is_prod.ts"
