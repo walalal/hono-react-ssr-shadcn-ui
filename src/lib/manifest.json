@@ -1,0 +1,18 @@
+{
+  "_vendor-DJ9M5_AU.js": {
+    "file": "static/vendor-DJ9M5_AU.js",
+    "name": "vendor"
+  },
+  "src/client.tsx": {
+    "file": "static/client-DLvUrpYe.js",
+    "name": "client",
+    "src": "src/client.tsx",
+    "isEntry": true,
+    "imports": [
+      "_vendor-DJ9M5_AU.js"
+    ],
+    "css": [
+      "static/client-C6lwst1N.css"
+    ]
+  }
+}
